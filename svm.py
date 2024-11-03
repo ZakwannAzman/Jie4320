@@ -25,17 +25,3 @@ plt.ylabel('Feature 2')
 plt.colorbar(label='Cluster')
 plt.grid(True)
 plt.show()
-
-
-#Creating subplot of each column with its own scale
-red_circle = dict(markerfacecolor='red', marker='o', markeredgecolor='white')
-
-fig, axs = plt.subplots(1, len(newdata.columns), figsize=(20,10))
-
-# detecting outliers in every column in dataset
-for i, ax in enumerate(axs.flat):
-    ax.boxplot(newdata.iloc[:,i], flierprops=red_circle)
-    ax.set_title(newdata.columns[i], fontsize=12, fontweight='bold')
-    ax.tick_params(axis='y', labelsize=12)
-
-plt.tight_layout()
