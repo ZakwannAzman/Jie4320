@@ -90,8 +90,4 @@ import seaborn as sns
 plt.figure(figsize=(20,15))
 sns.heatmap(newdata.corr(), annot=True, cmap='YlGnBu')
 
-#agglomative code
-scaler = StandardScaler()
-scaler.fit(newdata)
-scaled_ds = pd.DataFrame(scaler.transform(newdata),columns= newdata.columns )
 
