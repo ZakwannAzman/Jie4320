@@ -1,4 +1,4 @@
-sklearn.svm
+streamlit
 numpy
-matplotlib.pyplot
+matplotlib
 sklearn
