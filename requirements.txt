@@ -1,4 +1,4 @@
 sklearn.svm
 numpy
-matplot.pyplot
-sklearn.datasets
+matplotlib.pyplot
+sklearn
