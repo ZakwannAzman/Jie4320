@@ -1,6 +1,9 @@
 seaborn
 matplotlib
-sklearn
+sklearn.svm
 pandas
 numpy
 streamlit
+sklearn
+matplot.pyplot
+sklearn.datasets
