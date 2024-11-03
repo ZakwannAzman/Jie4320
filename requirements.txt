@@ -1,9 +1,4 @@
-seaborn
-matplotlib
 sklearn.svm
-pandas
 numpy
-streamlit
-sklearn
 matplot.pyplot
 sklearn.datasets
